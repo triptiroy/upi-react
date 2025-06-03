@@ -5,9 +5,9 @@ module.exports = {
     mode: 'development',
     entry: './src/TriveniSangamCore/webapp/index.jsx',
     output: {
-        path: path.resolve(__dirname, 'Public'),
+        path: path.resolve(__dirname, 'build'),
         filename: 'bundle.js',
-        publicPath: '/'
+        publicPath: '/upi-react/'
     },
     module: {
         rules: [
