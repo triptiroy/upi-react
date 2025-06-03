@@ -1,0 +1,7 @@
+base = {
+  workspace = triptir_Triveni; 
+  versionSet = "TriveniSangam/release";
+  dependencyModel = brazil;
+};
+packages = { };
+platformOverride = AL2_x86_64;
